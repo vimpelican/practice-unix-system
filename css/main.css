@@ -1,0 +1,45 @@
+body {
+  font-family: 'Inconsolata', monospace;
+  margin-left: 10px;
+  padding: 0;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #666;
+}
+
+ol li {
+  margin-left: 10px;
+}
+
+.home-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #9c9c9c;
+  text-align: center;
+  text-decoration: none;
+}

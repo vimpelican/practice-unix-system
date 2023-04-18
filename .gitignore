@@ -35,4 +35,7 @@ Temporary Items
 # iCloud generated files
 *.icloud
 
+# solaris 10 .iso file
+*.iso
+
 # End of https://www.toptal.com/developers/gitignore/api/macos

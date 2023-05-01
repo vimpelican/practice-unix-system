@@ -18,20 +18,58 @@
       <section>
         <h3>01 Overview of UNIX</h3>
           <ol>
-              <li>OS and UNIX</li>
-                  <ul>
-                      <li> OS is a set of program that controls the computer.</li>
-                  </ul>
-              <li>History of UNIX</li>
-              <li>Unix variants</li>
-              <li>Structure of UNIX</li>
+            <li>OS and UNIX</li>
+              <ul>
+                <li>OS is a set of program that controls the computer.</li>
+              </ul>
+            <li>History of UNIX</li>
+              <ul>
+                <li>First developed in 1969 at Bell lab by Ken Thompson and Dennis Ritchie</li>
+                <li>Re-written in the C language in 1973</li>
+              </ul>
+            <li>Unix variants</li>
+            <li>Structure of UNIX</li>
+              <ul>
+                <li>Kernel, shell, utility</li>
+                <li>Kernel : Manage all reseources of computers</li>
+                <li>Shell : Act as an intermediary - users and kernel. It interpretes commands from user and send them to kernel. It shows result on the monitor.</li>
+                <li>Utility : Offers a variety of utilities(e.g. programming tool, network tool)</li>
+              </ul>
           </ol>
         <h3>02 How to connect UNIX system and CLI</h3>
           <ol>
-              <li>Connect to UNIX system</li>
-              <li>How to edit command line</li>
-              <li>Structure of command</li>
-              <li>Usage of command</li>
+            <li>Connect to UNIX system</li>
+              <ol>
+                <li>Open terminal(in Mac)</li>
+                <li>Enter "ssh -oHostKeyAlgorithms=+ssh-dss -p [PORT] [ID]@comunix.seoultech.ac.kr"</li>
+                <li>Log-in with given ID and PW</li>
+              </ol>
+            <li>How to edit command line</li>
+            <li>Structure of command</li>
+              <ul>
+                <li>commands [options] [arguments]</li>
+              </ul>
+            <li>How to use commands</li>
+              <ul>
+                <li>Only command : ls</li>
+                <li>Command with option : ls -a</li>
+                <li>Command with argument : ls /tmp</li>
+                <li>Command with both option and argument : ls -a /tmp</li>
+              </ul>
+            <li>Basic usage of command</li>
+              <ul>
+                <li>banner - print large banner on screen</li>
+                <li>date - display or set date and time</li>
+                <li>clear - clear the terminal screen</li>
+                <li>man - display online manual documentation pages</li>
+                <li>passwd [args] - modify a user's password</li>
+              </ul>
+            <li>Disconnect to UNIX system</li>
+              <ul>
+                <li>logout : Only available on login shell</li>
+                <li>exit</li>
+                <li>[control]+[D]</li>
+              </ul>
           </ol>
       </section>
     </main>

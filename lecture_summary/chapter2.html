@@ -19,12 +19,38 @@
         <h3>01 UNIX file system</h3>
           <ol>
               <li>Types of file</li>
+                <ul>
+                  <li>Default file(text or binary)</li>
+                  <li>Directory file : Its content is name of another file or sub-directory</li>
+                  <li>Symbolic link file : Shortcut in Windows</li>
+                  <li>Device file(block device file or character device file) : In /dev or /devices</li>
+                </ul>
               <li>Directory structure(tree)</li>
+                <ul>
+                  <li>e.g.) /bin, /etc/default/login, /usr/bin, /usr/lib, /tmp, /etc</li>
+                </ul>
               <li>Absolute path, relative path</li>
-              <li>Convention of naming files and directories</li>
+                <ul>
+                  <li>If user is in /home/user1/Unix: </li>
+                  <li>Absolute path(starts from root) : /home/user1/Unix</li>
+                  <li>Relative path : Unix</li>
+                </ul>
+              <li>Rules of naming files and directories</li>
+                <ul>
+                  <li>Use alphabet, number, -, _, .</li>
+                  <li>Can't use blank, *, &, |, ", ', ・, ~, #, $, (, ), \, :, <, >.</li>
+                  <li>Be case sensitive(aaa!=AAA).</li>
+                  <li>A file starts with .(dot) - It is hidden file.</li>
+                </ul>
           </ol>
-        <h3>02 Check present working directory - pwd</h3>
+        <h3>02 Check present working directory(in absolute) - pwd</h3>
         <h3>03 Change directory - cd</h3>
+          <ul>
+            <li>cd : change to home directory</li>
+            <li>cd ~ == cd</li>
+            <li>cd [Name of directory]</li>
+            <li>cd .. : change to parent directory</li>
+          </ul>
         <h3>04 Check file list of directory - ls</h3>
           <ol>
             <li>Check file list of current directory</li>
